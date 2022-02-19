@@ -269,3 +269,14 @@ a:link {
       font-size: x-large;
       text-align: center;
   }
+  
+  .top4{
+      height: 400px;
+      background-color: lightblue;
+  }
+
+  .about{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: x-large;
+  }
