@@ -259,3 +259,13 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .navarrow {
+ padding-left: 85%;
+ size: 100px;
+  }
+
+  .top3 {
+      font-size: x-large;
+      text-align: center;
+  }
