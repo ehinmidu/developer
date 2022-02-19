@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@399&display=swap');
+
+
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    
+}
+body   {
+    margin: 0;
+    
+}
+
+header  {
+    background-color: black;}
+
+.portfolio {
+   
+    width: 6%;
+    float: left;
+    
+
+}
+    
+.container  {
+  
+    width: 98%;
+    height: 8vh;
+    margin: 0 auto;
+    padding-top: 1px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container :hover   {
+    color: wheat
+    
+}
+
+
+.top    {
+    background-color: red;
+    height: 60px;
+
+}
+
+.top li    {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 900;
+    
+    padding-right: 20px;
+   
+}
+
+nav ul  {   
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+    text-align: right;
+    padding-top: 10px;
+    
+}
+
+nav li  {
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 6px;
+}
+
+.top {
+  overflow: hidden;
+  background-color: rgb(12, 26, 219);
+  
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.top a:hover {
+  background-color: rgb(126, 122, 161);
+  color: black;
+ 
+ 
+}
+/*
+.top a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+*/
+
+.top2 img   {
+    width: 100%;
+    height: 20%;
+}
+/*
+.abouthead  {
+    background-color: purple;
+    height: 300px;
+    padding-top: 0;
+    color: white;
+      
+}
+
+.about   {
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    
+}
+**/
+.middlesection  {
+    background-color: lightslategray;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    padding: 20px;
+        
+}
+.middlesection h1   {
+    font-size: x-large;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.middlesection h1:hover{
+    color: wheat
+}
+
+.bottomsection  {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    height: 500px;
+    
+}
+.bottomsection h1   {
+    font-size: x-large;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+
+.wrapper    {
+    font-family: 'Allura', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 600px;
+    background-color: lightblue;
+    padding-top: 6%;
+}
+.wrapper h1   {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+   
+.projects .project {
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.projects .project h3  {
+    color: lightblue;
+    font-size: 26px;
+    margin-top: 90px;
+
+}
+
+.projects .project p.projecttype {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.projects .project .project_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-100%);
+   
+}
+
+.blank {
+    background-color: blue;
+    height: 5px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.footer {
+    height: 300px;
+    background-color: lightblue;
+    color: black;
+    padding-top: 2px;
+    text-align: center;
+
+}
+
+.footer div{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    display: inline-block;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  /*
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+*/  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
